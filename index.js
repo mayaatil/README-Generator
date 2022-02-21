@@ -72,7 +72,7 @@ function init() {
   inquirer.prompt(questions).then((response) => {
     console.log(response);
     //send responses to markdown to get structure
-    writeToFile(markdown(response));
+    writeToFile(markdown.response);
   });
 }
 
