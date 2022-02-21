@@ -46,6 +46,12 @@ const questions = [
     message: "Please enter any tests that need to be run for this project",
   },
   {
+    type: "checkbox",
+    name: "walkthrough",
+    message: "Please select the link to the demo walkthrough",
+    choices: ["./demo/walkthrough.gif"],
+  },
+  {
     type: "input",
     name: "email",
     message: "Please provide your email",
