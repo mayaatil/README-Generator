@@ -5,8 +5,6 @@ const inquirer = require("inquirer");
 //fs for reading and writing files
 const fs = require("fs");
 
-const structure = generateMarkdown(response);
-
 //create an array of questions for user input: title, description, table of contents, installation, usage, license, contributing, tests, and questions
 const questions = [
   {
@@ -63,7 +61,7 @@ const questions = [
 //send responses to readme file
 function writeToFile(response) {
   //create readme file and stringify responses
-  fs.writeFile("README.md", structure, (err) =>
+  fs.writeFile("README.md", response, (err) =>
     err ? console.log(err) : console.log("Success!")
   );
 }
@@ -74,7 +72,8 @@ function init() {
   inquirer.prompt(questions).then((response) => {
     console.log(response);
     //send responses to markdown to get structure
-    // writeToFile(markdown.response);
+    let structure = markdown(response);
+    writeToFile(structure);
   });
 }
 
