@@ -33,8 +33,8 @@ ${response.license} was used for this application
 ## Contributing
 ${response.contribution}
 
-## Walkthrough
-![Walkthrough](${response.walkthrough})
+## Link to Walkthrough Demo
+(${response.walkthrough})
 
 ## Tests
 ${response.tests}

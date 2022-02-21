@@ -10,22 +10,22 @@ This is a README Generator
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-Go with the vibes
+Vibes
 
 ## Usage
-Go with the vibes
+Vibes
 
 ## License
 MIT was used for this application
 
 ## Contributing
-Go with the vibes
+Vibes
 
-## Walkthrough
-![Walkthrough](https://drive.google.com/file/d/1xFmhicy7b4Bs-Fs4NgpMZikVigi244s-/view)
+## Link to Walkthrough Demo
+(https://drive.google.com/file/d/1xFmhicy7b4Bs-Fs4NgpMZikVigi244s-/view)
 
 ## Tests
-Go with the vibes
+Vibes
 
 ## Questions
 If there are any additional questions, please contact via email at mayatillman17@gmail.com, or via Github:
