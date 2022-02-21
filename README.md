@@ -22,7 +22,7 @@ MIT was used for this application
 Go with the vibes
 
 ## Walkthrough
-![Walkthrough](./demo/walkthrough.gif)
+![Walkthrough](https://drive.google.com/file/d/1xFmhicy7b4Bs-Fs4NgpMZikVigi244s-/view)
 
 ## Tests
 Go with the vibes
