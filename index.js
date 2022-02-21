@@ -49,7 +49,9 @@ const questions = [
     type: "checkbox",
     name: "walkthrough",
     message: "Please select the link to the demo walkthrough",
-    choices: ["./demo/walkthrough.gif"],
+    choices: [
+      "https://drive.google.com/file/d/1xFmhicy7b4Bs-Fs4NgpMZikVigi244s-/view",
+    ],
   },
   {
     type: "input",
